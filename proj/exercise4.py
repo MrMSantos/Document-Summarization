@@ -2,6 +2,7 @@
 from utils import getSentences
 from xml.etree import cElementTree as ET
 import re
+import os
 
 def cleanhtml(raw_html):
     cleanr = re.compile('<.*?>')
@@ -9,15 +10,16 @@ def cleanhtml(raw_html):
     return cleantext.strip()
 
 
-def getAllSentences():
+def getSentencesfromXML(file):
     sentences = []
-    tree = ET.parse('New_York_Times.xml')
+    tree = ET.parse(file)
     root = tree.getroot()
     for items in root.iter('item'):
         #TITLE
         title = items.find('title').text
-        titleSentences = getSentences(title)
-        sentences += titleSentences
+        if title != None:
+            titleSentences = getSentences(title)
+            sentences += titleSentences
         
         #DESCRIPTION
         description = items.find('description').text
@@ -25,13 +27,15 @@ def getAllSentences():
         descriptionSentences = getSentences(cleanhtml(descriptionClean))
         sentences += descriptionSentences
         
-        #print('TITLE:', title)
-        #print('DESCRIPTION:', description)
-    print(sentences)
     return sentences
 
 def main():
-    getAllSentences()
+    fileSentences = []
+    for file in os.listdir(os.getcwd()):
+        print(file)
+        if file.endswith('.xml') or file.endswith('.rss'):
+            fileSentences += getSentencesfromXML(file)
+    print(fileSentences)
 
-
-main()
+if __name__ == '__main__':
+    main()
