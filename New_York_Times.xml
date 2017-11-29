@@ -1,0 +1,843 @@
+<?xml version="1.0"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+  <channel>
+    <title>NYT &gt; World</title>
+    <link>https://www.nytimes.com/pages/world/index.html?partner=rss&amp;emc=rss</link>
+    <atom:link rel="self" type="application/rss+xml" href="http://www.nytimes.com/services/xml/rss/nyt/World.xml"/>
+    <description/>
+    <language>en-us</language>
+    <copyright>Copyright 2017  The New York Times Company</copyright>
+    <lastBuildDate>Wed, 29 Nov 2017 15:19:59 GMT </lastBuildDate>
+    <image>
+      <title>NYT &gt; World</title>
+      <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
+      <link>https://www.nytimes.com/pages/world/index.html?partner=rss&amp;emc=rss</link>
+    </image>
+    <item>
+      <title>North Korea Fires a Ballistic Missile, in a Further Challenge to Trump</title>
+      <link>https://www.nytimes.com/2017/11/28/world/asia/north-korea-missile-test.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/28/world/asia/north-korea-missile-test.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/28/world/asia/north-korea-missile-test.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/29/world/29nkoreamissile/29koreanmissile-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The North Korean leader, Kim Jong-un, with two scientists &#x2014; Ri Hong-sop, second from left, and Hong Sung-mu, right &#x2014; in Pyongyang in September.</media:description>
+      <media:credit>Korean Central News Agency</media:credit>
+      <description>The missile flew higher than previous launches, and came despite President Trump&#x2019;s warnings to the North.</description>
+      <dc:creator>MARK LANDLER, CHOE SANG-HUN and HELENE COOPER</dc:creator>
+      <pubDate>Wed, 29 Nov 2017 08:17:27 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Missiles and Missile Defense Systems</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Embargoes and Sanctions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">South Korea</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">North Korea</category>
+    </item>
+    <item>
+      <title>War Criminal Dies After Apparently Drinking Poison in Court</title>
+      <link>https://www.nytimes.com/2017/11/29/world/europe/bosnian-war-croatia.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/29/world/europe/bosnian-war-croatia.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/29/world/europe/bosnian-war-croatia.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/30/world/30Hague2/30Hague2-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Former Croat leaders in the court in The Hague, before an appeals judgment in the International Criminal Tribunal for the Former Yugoslavia.</media:description>
+      <media:credit>Pool photo by Robin Van Lonkhuijsen</media:credit>
+      <description>At a tribunal considering appeals by six Croats convicted over actions in Bosnia, a former general drank from a vial after his sentence was upheld.</description>
+      <dc:creator>MARLISE SIMONS</dc:creator>
+      <pubDate>Wed, 29 Nov 2017 15:10:56 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">War Crimes, Genocide and Crimes Against Humanity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">International Criminal Tribunal for the former Yugoslavia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Tudjman, Franjo</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">praljak, slobodan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Croatia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Bosnia and Herzegovina</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Susak, Gojko</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Bobetko, Janko</category>
+    </item>
+    <item>
+      <title>In Eastern Europe, Populism Lives, Widening a Split in the E.U.</title>
+      <link>https://www.nytimes.com/2017/11/28/world/europe/populism-eastern-europe.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/28/world/europe/populism-eastern-europe.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/28/world/europe/populism-eastern-europe.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/29/world/29europe-populism1/xxeurope-populism1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Far-right nationalists marched through Warsaw on Nov. 11 during Independence Day celebrations.</media:description>
+      <media:credit>Leszek Szymanski/European Pressphoto Agency</media:credit>
+      <description>The populist wave that threatened to engulf Western Europe has largely stalled, but varied forms of populism in the east still threaten to infect the bloc.</description>
+      <dc:creator>STEVEN ERLANGER</dc:creator>
+      <pubDate>Wed, 29 Nov 2017 03:54:33 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">European Union</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Eastern Europe</category>
+    </item>
+    <item>
+      <title>In China, Fears That New Anticorruption Agency Will Be Above the Law</title>
+      <link>https://www.nytimes.com/2017/11/29/world/asia/china-xi-jinping-anticorruption.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/29/world/asia/china-xi-jinping-anticorruption.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/29/world/asia/china-xi-jinping-anticorruption.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/23/world/23china-xi-1/23china-xi-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>President Xi Jinping at the Communist Party congress in October. A proposed anticorruption watchdog has been criticized by China&#x2019;s usually restrained lawyers and law professors.</media:description>
+      <media:credit>Kevin Frayer/Getty Images</media:credit>
+      <description>Mainstream lawyers and law professors in China are taking a risk in speaking out against a move that they say would violate the country&#x2019;s Constitution.</description>
+      <dc:creator>CHRIS BUCKLEY</dc:creator>
+      <pubDate>Wed, 29 Nov 2017 10:00:19 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Corruption (Institutional)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Communist Party of China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Xi Jinping</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Law and Legislation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Central Commission for Discipline Inspection (Communist Party of China)</category>
+    </item>
+    <item>
+      <title>Australian State Passes Assisted Dying Law</title>
+      <link>https://www.nytimes.com/2017/11/29/world/australia/australia-euthanasia-victoria-assisted-dying.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/29/world/australia/australia-euthanasia-victoria-assisted-dying.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/29/world/australia/australia-euthanasia-victoria-assisted-dying.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/30/world/30oz-euthanasia/30oz-euthanasia-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>An assisted dying bill was ratified by the state of Victoria on Wednesday, making it Australia&#x2019;s first to legalize euthanasia.</media:description>
+      <media:credit>Scott Barbour/Getty Images</media:credit>
+      <description>After two and half years of debate and despite opposition from many doctors, the state of Victoria legalized voluntary euthanasia for some terminally ill patients.</description>
+      <dc:creator>ADAM BAIDAWI</dc:creator>
+      <pubDate>Wed, 29 Nov 2017 08:27:08 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Longevity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Law and Legislation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Victoria (Australia)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Australia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Northern Territory (Australia)</category>
+    </item>
+    <item>
+      <title>Royal Engagement Seen as Symbol of Change, With Asterisks</title>
+      <link>https://www.nytimes.com/2017/11/28/world/europe/uk-royal-wedding-harry-meghan-markle.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/28/world/europe/uk-royal-wedding-harry-meghan-markle.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/28/world/europe/uk-royal-wedding-harry-meghan-markle.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/29/world/29uk-royals/29uk-royals-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Britain&#x2019;s Prince Harry and Meghan Markle posed for photographers on the grounds of Kensington Palace in London, on Monday.</media:description>
+      <media:credit>Matt Dunham/Associated Press</media:credit>
+      <description>Some media commentators warned that the powerful symbolism did not diminish structural racism across Britain.</description>
+      <dc:creator>PATRICK KINGSLEY</dc:creator>
+      <pubDate>Wed, 29 Nov 2017 02:45:27 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">England</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Elizabeth II, Queen of Great Britain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Harry, Prince of Wales</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Markle, Meghan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Royal Families</category>
+    </item>
+    <item>
+      <title>Charges Cast Spotlight on Singapore&#x2019;s Strict Rules on Public Gatherings</title>
+      <link>https://www.nytimes.com/2017/11/29/world/asia/singapore-arrest-protests-gatherings.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/29/world/asia/singapore-arrest-protests-gatherings.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/29/world/asia/singapore-arrest-protests-gatherings.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/30/world/30singapore-1/30singapore-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Jolovan Wham, a civil activist in Singapore, was accused of organizing three small gatherings without police permission there in the past year.</media:description>
+      <media:credit>Edgar Su/Reuters</media:credit>
+      <description>Jolovan Wham held small gatherings, including one featuring the Hong Kong protest leader Joshua Wong by video, that resulted in charges by the police.</description>
+      <dc:creator>AUSTIN RAMZY</dc:creator>
+      <pubDate>Wed, 29 Nov 2017 09:55:26 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Freedom of Speech and Expression</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Human Rights Watch</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Wong, Joshua (1996- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Singapore</category>
+    </item>
+    <item>
+      <title>Reza Zarrab, Turk at Center of Iran Sanctions Case, Is Helping Prosecution</title>
+      <link>https://www.nytimes.com/2017/11/28/world/europe/reza-zarrab-turkey-iran.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/28/world/europe/reza-zarrab-turkey-iran.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/28/world/europe/reza-zarrab-turkey-iran.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/29/world/29turkeytrial1/29turkeytrial1-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description>Reza Zarrab, a Turkish-Iranian businessman accused of conspiracy to violate United States sanctions against Iran, has been cooperating with the American authorities, a prosecutor said on Tuesday.</media:description>
+      <media:credit>Sebnem Coskun/Anadolu Agency &#x2014; Getty Images</media:credit>
+      <description>The gold trader, arrested in 2016, pleaded guilty in a case that has strained relations between the United States and Turkey.</description>
+      <dc:creator>BENJAMIN WEISER</dc:creator>
+      <pubDate>Wed, 29 Nov 2017 04:31:20 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Zarrab, Reza (1983- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Turkey</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Iran</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Embargoes and Sanctions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Erdogan, Recep Tayyip</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+    </item>
+    <item>
+      <title>Philippines Killed Communist Rebels Near Manila, Military Says</title>
+      <link>https://www.nytimes.com/2017/11/29/world/asia/philippines-duterte-communist-rebels.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/29/world/asia/philippines-duterte-communist-rebels.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/29/world/asia/philippines-duterte-communist-rebels.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/30/world/30philippines-1/30philippines-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Fighters for the New People&#x2019;s Army, a communist force, marking its 48th anniversary in April. The Philippine insurgency is one of the longest-running in Asia.</media:description>
+      <media:credit>Dondi Tawatao/Getty Images</media:credit>
+      <description>The fighting came on the same day that the government closed the door on peace talks.</description>
+      <dc:creator>FELIPE VILLAMOR</dc:creator>
+      <pubDate>Wed, 29 Nov 2017 10:34:08 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">New People's Army</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Manila (Philippines)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Duterte, Rodrigo</category>
+    </item>
+    <item>
+      <title>India&#x2019;s Punishment for Plant-Eating Donkeys: Jail Time</title>
+      <link>https://www.nytimes.com/2017/11/28/world/asia/india-orai-donkeys-jail.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/28/world/asia/india-orai-donkeys-jail.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/28/world/asia/india-orai-donkeys-jail.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/29/world/29india1/29india1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>In a photograph taken from an NDTV video, donkeys were shown leaving the jail in Orai, India, on Monday.</media:description>
+      <media:credit/>
+      <description>Eight of the animals were jailed for four days in Orai, India, as part of a cleanup campaign. Their crime: devouring expensive saplings.</description>
+      <dc:creator>JEFFREY GETTLEMAN and KAI SCHULTZ</dc:creator>
+      <pubDate>Wed, 29 Nov 2017 01:55:11 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Donkeys</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prisons and Prisoners</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">India</category>
+    </item>
+    <item>
+      <title>Senate, North Korea, Uber: Your Tuesday Evening Briefing</title>
+      <link>https://www.nytimes.com/2017/11/28/briefing/senate-north-korea-uber.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/28/briefing/senate-north-korea-uber.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/28/briefing/senate-north-korea-uber.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/28/briefing/28Eveningbriefing-slide-23KR/28Eveningbriefing-slide-23KR-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Doug Mills/The New York Times</media:credit>
+      <description>Here&#x2019;s what you need to know at the end of the day.</description>
+      <dc:creator>KAREN ZRAICK and DAVID SCULL</dc:creator>
+      <pubDate>Tue, 28 Nov 2017 23:59:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>Why German Markets Aren&#x2019;t Worried About Angela Merkel. Yet.</title>
+      <link>https://www.nytimes.com/2017/11/28/business/germany-merkel-economy.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/28/business/germany-merkel-economy.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/28/business/germany-merkel-economy.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/29/world/29germanyeconJMP1/00germanyecon-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Chancellor Angela Merkel of Germany in Berlin on Nov. 20 after failed coalition talks. Investors have taken the political uncertainty in stride because of the strength of the German and European economies.</media:description>
+      <media:credit>Odd Andersen/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>A strong economy and faith in Germany&#x2019;s political system soothe investors. But the country&#x2019;s prosperity may mask challenges down the road.</description>
+      <dc:creator>JACK EWING</dc:creator>
+      <pubDate>Tue, 28 Nov 2017 23:33:00 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Germany</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Merkel, Angela</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Economic Conditions and Trends</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Europe</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+    </item>
+    <item>
+      <title>Canada Offers $85 Million to Victims of Its &#x2018;Gay Purge,&#x2019; as Trudeau Apologizes</title>
+      <link>https://www.nytimes.com/2017/11/28/world/canada/canada-apology-gay-purge-compensation.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/28/world/canada/canada-apology-gay-purge-compensation.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/28/world/canada/canada-apology-gay-purge-compensation.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/29/world/29canada-gayapology/29canada-gayapology-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Prime Minister of Canada Justin Trudeau making a formal apology to individuals harmed by the so-called &#x201C;gay purge&#x201D; in Canada.</media:description>
+      <media:credit>Adrian Wyld/The Canadian Press, via Associated Press</media:credit>
+      <description>Prime Minister Justin Trudeau apologized for Canada&#x2019;s discrimination against gays and lesbians who were forced out of the military and public service.</description>
+      <dc:creator>DAN LEVIN</dc:creator>
+      <pubDate>Tue, 28 Nov 2017 20:55:20 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Homosexuality and Bisexuality</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Discrimination</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Apologies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Canada</category>
+    </item>
+    <item>
+      <title>Saudi Arabia Releases Senior Prince Arrested in Anti-Corruption Purge</title>
+      <link>https://www.nytimes.com/2017/11/28/world/middleeast/saudi-prince-released.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/28/world/middleeast/saudi-prince-released.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/28/world/middleeast/saudi-prince-released.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/29/world/29saudi/29saudi-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Prince Mutaib bin Abdullah, right, who has been released from detention, with Prince Mohammed bin Nayef, left, and Saud bin Nayef in Riyadh, Saudi Arabia, in 2012.</media:description>
+      <media:credit>Hassan Ammar/Associated Press</media:credit>
+      <description>The kingdom released Prince Mutaib bin Abdullah, the former head of the National Guard, a sign it is moving to resolve corruption charges.</description>
+      <dc:creator>DAVID D. KIRKPATRICK</dc:creator>
+      <pubDate>Tue, 28 Nov 2017 23:31:07 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Royal Families</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Ritz-Carlton Hotel Co</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Abdullah, King of Saudi Arabia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Mohammed bin Nayef</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Mohammed bin Salman (1985- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Salman, King of Saudi Arabia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Riyadh (Saudi Arabia)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Saudi Arabia</category>
+    </item>
+    <item>
+      <title>OPEC Leader Cites &#x2018;New Optimism&#x2019; With Oil Prices on the Rise</title>
+      <link>https://www.nytimes.com/2017/11/28/business/energy-environment/opec-oil-prices.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/28/business/energy-environment/opec-oil-prices.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/28/business/energy-environment/opec-oil-prices.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/29/business/29OPEC1/29OPEC1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A Saudi Aramco oil complex in eastern Saudi Arabia. Higher prices could strain a Saudi agreement with Russia to hold down production.</media:description>
+      <media:credit>
+        <p>Saudi Aramco</p>
+      </media:credit>
+      <description>With a 20 percent price surge in less than three months, members of the oil cartel must decide whether to extend production cuts.</description>
+      <dc:creator>STANLEY REED</dc:creator>
+      <pubDate>Tue, 28 Nov 2017 19:18:45 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Oil (Petroleum) and Gasoline</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">International Trade and World Market</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Organization of the Petroleum Exporting Countries</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prices (Fares, Fees and Rates)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Production</category>
+    </item>
+    <item>
+      <title>As Kenyatta is Inaugurated, Kenyans Are Feeling Economic Pain</title>
+      <link>https://www.nytimes.com/2017/11/28/world/africa/kenya-kenyatta-odinga-economy.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/28/world/africa/kenya-kenyatta-odinga-economy.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/28/world/africa/kenya-kenyatta-odinga-economy.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/29/world/29Kenya1/29Kenya1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A market in central Kisumu, Kenya, last month.</media:description>
+      <media:credit>Jennifer Huxta/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>Kenya&#x2019;s protracted presidential election badly hit the economy, affecting people across the social spectrum.</description>
+      <dc:creator>JINA MOORE</dc:creator>
+      <pubDate>Tue, 28 Nov 2017 18:20:42 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Economic Conditions and Trends</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kenyatta, Uhuru Muigai</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Kenya</category>
+    </item>
+    <item>
+      <title>Hawaii Brings Back a Cold War-Era Nuclear Warning System</title>
+      <link>https://www.nytimes.com/2017/11/28/us/hawaii-nuclear-korea.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/28/us/hawaii-nuclear-korea.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/28/us/hawaii-nuclear-korea.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/29/us/29xp-hawaii1/29xp-hawaii1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Part of the coast in Oahu. Hawaii is testing a nuclear warning siren that will alert people to seek shelter in the face of an imminent attack.</media:description>
+      <media:credit>Jim Wilson/The New York Times</media:credit>
+      <description>Monthly tests are the latest in similar readiness steps by Hawaii amid renewed tensions between the United States and North Korea.</description>
+      <dc:creator>CHRISTINE HAUSER</dc:creator>
+      <pubDate>Tue, 28 Nov 2017 19:47:36 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Nuclear Tests</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Nuclear Weapons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cold War Era</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Hawaii</category>
+    </item>
+    <item>
+      <title>Ireland Avoids Snap Election, but Its Leader Is Weakened</title>
+      <link>https://www.nytimes.com/2017/11/28/world/europe/ireland-frances-fitzgerald-resign.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/28/world/europe/ireland-frances-fitzgerald-resign.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/28/world/europe/ireland-frances-fitzgerald-resign.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/29/world/29ireland1/29ireland1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Prime Minister Leo Varadkar at his party&#x2019;s conference in Ballyconnell, Ireland, this month.</media:description>
+      <media:credit>Clodagh Kilcoyne/Reuters</media:credit>
+      <description>The resignation of the deputy prime minister kept the government intact, but the crisis left Dublin vulnerable before talks on the future of its border with Britain.</description>
+      <dc:creator>ED O&#x2019;LOUGHLIN</dc:creator>
+      <pubDate>Tue, 28 Nov 2017 16:44:57 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ireland</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Referendums</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">International Trade and World Market</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Great Britain Withdrawal from EU (Brexit)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">European Union</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Fitzgerald, Frances Mary (1950- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Varadkar, Leo</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Appointments and Executive Changes</category>
+    </item>
+    <item>
+      <title>Facebook and Twitter Promise to Aid Inquiry on Russian Brexit Meddling</title>
+      <link>https://www.nytimes.com/2017/11/28/world/europe/uk-facebook-brexit-russia.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/28/world/europe/uk-facebook-brexit-russia.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/28/world/europe/uk-facebook-brexit-russia.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/29/world/29UKRussia1/29UKRussia1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Facebook said it had been contacted by the British election regulator about Russian activity during the Brexit campaign, and would share its response with lawmakers.</media:description>
+      <media:credit>Justin Tallis/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>British lawmakers are investigating whether Moscow influenced the 2016 referendum. The social media giants have promised information within weeks.</description>
+      <dc:creator>STEPHEN CASTLE</dc:creator>
+      <pubDate>Tue, 28 Nov 2017 16:43:34 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Great Britain Withdrawal from EU (Brexit)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Referendums</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Social Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Twitter</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Facebook Inc</category>
+    </item>
+    <item>
+      <title>North Korea Says It&#x2019;s Now a Nuclear State. Could That Mean It&#x2019;s Ready to Talk?</title>
+      <link>https://www.nytimes.com/2017/11/29/world/asia/north-korea-nuclear-missile-.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/29/world/asia/north-korea-nuclear-missile-.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/29/world/asia/north-korea-nuclear-missile-.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/30/world/30nkorea-1/30nkorea-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>State television in Pyongyang, the North Korean capital, announcing the country&#x2019;s latest missile launch on Wednesday. The North said it had &#x201C;finally realized the great historic cause of completing the state nuclear force.&#x201D;</media:description>
+      <media:credit>Kim Won-Jin/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>The North&#x2019;s claims about its latest missile test raise the question of whether a deal to freeze its arsenal could be a possibility.</description>
+      <dc:creator>CHOE SANG-HUN</dc:creator>
+      <pubDate>Wed, 29 Nov 2017 15:09:46 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Nuclear Weapons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kim Jong-un</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">North Korea</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Missiles and Missile Defense Systems</category>
+    </item>
+    <item>
+      <title>Bangkok Journal: Lurking in Toilets, Swimming the Streets: Snakes of Bangkok Move In</title>
+      <link>https://www.nytimes.com/2017/11/28/world/asia/bangkok-snakes.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/28/world/asia/bangkok-snakes.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/28/world/asia/bangkok-snakes.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/29/world/29bangkok-snakes-1sub/27bangkok-snakes-1sub-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description>Firefighters restraining a rescued python at a fire station in Bangkok last week. One of the main jobs of the city&#x2019;s Fire and Rescue Department is removing snakes from homes.</media:description>
+      <media:credit>Amanda Mustard for The New York Times</media:credit>
+      <description>The Thai capital has always been rich in reptiles, but wet weather and urban growth are creating more snake-on-human encounters of an unpleasant kind.</description>
+      <dc:creator>RICHARD C. PADDOCK and RYN JIRENUWAT</dc:creator>
+      <pubDate>Tue, 28 Nov 2017 19:32:05 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Snakes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Bangkok (Thailand)</category>
+    </item>
+    <item>
+      <title>An Iranian Wrestler Throws His Match to Avoid an Israeli</title>
+      <link>https://www.nytimes.com/2017/11/28/world/middleeast/iranian-wrestler-alireza-karimi-machiani.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/28/world/middleeast/iranian-wrestler-alireza-karimi-machiani.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/28/world/middleeast/iranian-wrestler-alireza-karimi-machiani.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/29/world/29Iran/29Iran-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>At the Olympics in Rio de Janeiro in 2016, the Iranian wrestler Alireza Karimi-Machiani, right, lost to the American J&#x2019;Den Cox.</media:description>
+      <media:credit>Jack Guez/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>The athlete was cruising against an inferior Russian until his coach shouted &#x201C;Lose!&#x201D; after learning who his next opponent would be.</description>
+      <dc:creator>THOMAS ERDBRINK</dc:creator>
+      <pubDate>Wed, 29 Nov 2017 02:12:15 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Wrestling</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Poland</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Iran</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Alireza Karimi-Machiani</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Muslims and Islam</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Khamenei, Ali</category>
+    </item>
+    <item>
+      <title>German Mayor Who Welcomed Refugees Is Stabbed by Angry Resident</title>
+      <link>https://www.nytimes.com/2017/11/28/world/europe/germany-andreas-hollstein.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/28/world/europe/germany-andreas-hollstein.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/28/world/europe/germany-andreas-hollstein.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/29/world/29Germanymayor/29Germanymayor-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Andreas Hollstein, mayor of Altena, Germany, on Tuesday, the day after he was attacked. &#x201C;I will continue to work for people. For refugees and for the weaker members of society,&#x201D; he said.</media:description>
+      <media:credit>Oliver Berg/DPA, via Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>Andreas Hollstein, who won plaudits for taking in extra asylum seekers, was wounded in the neck, but he vowed not to alter his policy of openness.</description>
+      <dc:creator>MELISSA EDDY</dc:creator>
+      <pubDate>Tue, 28 Nov 2017 22:27:50 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Refugees and Displaced Persons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Immigration and Emigration</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Germany</category>
+    </item>
+    <item>
+      <title>North Korea Could Have Nuclear ICBM Next Year, South Says</title>
+      <link>https://www.nytimes.com/2017/11/28/world/asia/north-korea-nuclear-weapons.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/28/world/asia/north-korea-nuclear-weapons.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/28/world/asia/north-korea-nuclear-weapons.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/29/world/29nkorea/29nkorea-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>An image said to show North Korea&#x2019;s most recent missile launch, of an intermediate-range Hwasong-12 in September.</media:description>
+      <media:credit>Korean Central News Agency, via Reuters</media:credit>
+      <description>A South Korean official said his government was closely monitoring recent missile-related activities in the North for a possible resumption of weapons tests.</description>
+      <dc:creator>CHOE SANG-HUN</dc:creator>
+      <pubDate>Tue, 28 Nov 2017 12:25:26 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Nuclear Tests</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Missiles and Missile Defense Systems</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">North Korea</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">South Korea</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kim Jong-un</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+    </item>
+    <item>
+      <title>In Myanmar, Pope Francis Calls for Peace Without Saying &#x2018;Rohingya&#x2019;</title>
+      <link>https://www.nytimes.com/2017/11/28/world/asia/pope-francis-myanmar-rohingya.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/28/world/asia/pope-francis-myanmar-rohingya.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/28/world/asia/pope-francis-myanmar-rohingya.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/29/world/29pope-6/29pope-6-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Pope Francis arriving in Naypyidaw, Myanmar&#x2019;s capital, on Tuesday. In a speech, he gave carefully worded remarks that sought to depict religious differences as a source of enrichment.</media:description>
+      <media:credit>Vatican press office, via Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>Rights advocates had hoped the pope would specifically denounce the military&#x2019;s campaign of violence against the Muslim ethnic group.</description>
+      <dc:creator>JASON HOROWITZ</dc:creator>
+      <pubDate>Tue, 28 Nov 2017 22:03:30 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">vis-multimedia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rohingya (Ethnic Group)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">War Crimes, Genocide and Crimes Against Humanity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Francis</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Aung San Suu Kyi</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Myanmar</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Rakhine State (Myanmar)</category>
+    </item>
+    <item>
+      <title>Muay Thai Runs in the Family</title>
+      <link>https://www.nytimes.com/video/world/asia/100000005031156/muay-thai-thailand-martial-arts.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/video/world/asia/100000005031156/muay-thai-thailand-martial-arts.html</guid>
+      <description>An experienced Muay Thai teacher is training his 16 children in the martial art to keep them off the streets and to help pay for their education.</description>
+      <dc:creator/>
+      <pubDate>Tue, 28 Nov 2017 10:00:02 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/des">Muay Thai</category>
+      <category domain="http://www.nytimes.com/namespaces/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/nyt_geo">Thailand</category>
+    </item>
+    <item>
+      <title>Japan&#x2019;s Toray, a Major Supply Chain Link, Says It Falsified Data</title>
+      <link>https://www.nytimes.com/2017/11/28/business/toray-japan-falsified-data.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/28/business/toray-japan-falsified-data.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/28/business/toray-japan-falsified-data.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/29/world/29toray-1/29toray-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The president of Toray Industries, Akihiro Nikkaku, left, and other company executives at a news conference in Tokyo on Tuesday. Toray said it had found 149 instances in which a subsidiary altered data to appear to meet manufacturing standards.</media:description>
+      <media:credit>Issei Kato/Reuters</media:credit>
+      <description>The company joins a growing number of firms that have admitted providing fake quality reports, dinging the Japanese reputation for quality.</description>
+      <dc:creator>JONATHAN SOBLE</dc:creator>
+      <pubDate>Tue, 28 Nov 2017 19:27:18 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Japan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Toray Industries Inc.</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Falsification of Data</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Factories and Manufacturing</category>
+    </item>
+    <item>
+      <title>Bali Volcano Eruption Strands Thousands of Travelers</title>
+      <link>https://www.nytimes.com/2017/11/28/world/asia/bali-volcano-mount-agung.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/28/world/asia/bali-volcano-mount-agung.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/28/world/asia/bali-volcano-mount-agung.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/29/world/29volcano-1/29volcano-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Visitors were in limbo on Tuesday, waiting for a way out, at Ngurah Rai International Airport in Denpasar, Bali.</media:description>
+      <media:credit>Juni Kriswanto/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>Tremors and ash from Mount Agung force evacuations and keep the Indonesian island&#x2019;s international airport shut down.</description>
+      <dc:creator>AUSTIN RAMZY</dc:creator>
+      <pubDate>Tue, 28 Nov 2017 09:01:57 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Volcanoes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Airports</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Evacuations and Evacuees</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">National Aeronautics and Space Administration</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Bali (Indonesia)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Indonesia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Java (Indonesia)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Surabaya (Indonesia)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">vis-multimedia</category>
+    </item>
+    <item>
+      <title>Chinese General Being Investigated for Bribery Kills Himself</title>
+      <link>https://www.nytimes.com/2017/11/28/world/asia/china-army-general-suicide.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/28/world/asia/china-army-general-suicide.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/28/world/asia/china-army-general-suicide.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/29/world/29china-1/29china-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Zhang Yang, then head of the General Political Department of the People&#x2019;s Liberation Army, in Beijing in 2014.</media:description>
+      <media:credit>China Stringer Network, via Reuters</media:credit>
+      <description>State media moved quickly to vilify Gen. Zhang Yang, who committed suicide as he was being investigated in Xi Jinping&#x2019;s crackdown on corruption.</description>
+      <dc:creator>SUI-LEE WEE</dc:creator>
+      <pubDate>Wed, 29 Nov 2017 09:01:12 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Corruption (Institutional)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Suicides and Suicide Attempts</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">People's Liberation Army (China)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+    </item>
+    <item>
+      <title>China Sentences Taiwanese Human Rights Activist in Subversion Case</title>
+      <link>https://www.nytimes.com/2017/11/27/world/asia/china-sentences-taiwan-rights-activist.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/27/world/asia/china-sentences-taiwan-rights-activist.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/27/world/asia/china-sentences-taiwan-rights-activist.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/29/world/29taiwan-1/29taiwan-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Lee Ming-cheh appearing in court in Yueyang, China, in September. He was accused of trying to foment a revolution.</media:description>
+      <media:credit>Yueyang Intermediate People's Court, via Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>Lee Ming-cheh was sentenced to five years in prison in the first case in which China has convicted a Taiwanese citizen of state subversion.</description>
+      <dc:creator>CHRIS HORTON</dc:creator>
+      <pubDate>Tue, 28 Nov 2017 04:42:05 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Political Prisoners</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Human Rights and Human Rights Violations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Confessions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Facebook Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Reporters Without Borders</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lee Ming-cheh</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Tsai Ing-wen</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Xi Jinping</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Taipei (Taiwan)</category>
+    </item>
+    <item>
+      <title>Mexico&#x2019;s Finance Minister Says He&#x2019;ll Run for President</title>
+      <link>https://www.nytimes.com/2017/11/27/world/americas/jose-antonio-meade-mexico.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/27/world/americas/jose-antonio-meade-mexico.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/27/world/americas/jose-antonio-meade-mexico.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/28/world/28mexico1/28mexico1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>President Enrique Pe&#xF1;a Nieto of Mexico, right, announcing the resignation on Monday of Jos&#xE9; Antonio Meade, the finance minister.</media:description>
+      <media:credit>Jose Mendez/European Pressphoto Agency</media:credit>
+      <description>Jos&#xE9; Antonio Meade stepped down from his post and said he would run next year as the candidate of the governing Institutional Revolutionary Party.</description>
+      <dc:creator>PAULINA VILLEGAS</dc:creator>
+      <pubDate>Tue, 28 Nov 2017 02:53:58 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Mexico</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Meade, Jose Antonio</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Institutional Revolutionary Party (Mexico)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+    </item>
+    <item>
+      <title>Venezuela Appoints General to Tighten Grip on Oil Industry</title>
+      <link>https://www.nytimes.com/2017/11/27/world/americas/venezuela-maduro-oil-industry.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/27/world/americas/venezuela-maduro-oil-industry.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/27/world/americas/venezuela-maduro-oil-industry.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/28/world/28venez1/28venez1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Venezuela&#x2019;s president has named Maj. Gen. Manuel Quevedo, right, to lead the state-owned energy company and the oil ministry.</media:description>
+      <media:credit>Meridith Kohut for The New York Times</media:credit>
+      <description>Skeptics said the appointment at the state-owned oil company was part of a move by the president to consolidate control over the industry.</description>
+      <dc:creator>KIRK SEMPLE</dc:creator>
+      <pubDate>Tue, 28 Nov 2017 03:12:16 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Venezuela</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Oil (Petroleum) and Gasoline</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Maduro, Nicolas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Petroleos de Venezuela SA</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Appointments and Executive Changes</category>
+    </item>
+    <item>
+      <title>News Analysis: Prince Harry Casts Aside Ghosts of Royal Marriages Past</title>
+      <link>https://www.nytimes.com/2017/11/27/world/europe/prince-harry-meghan-markle-engagement-royal.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/27/world/europe/prince-harry-meghan-markle-engagement-royal.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/27/world/europe/prince-harry-meghan-markle-engagement-royal.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/28/world/28royalassess1/28royalassess1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Prince Harry and his fianc&#xE9;e, Meghan Markle, arrived for photographs in the Sunken Garden at Kensington Palace on Monday.</media:description>
+      <media:credit>Eddie Mulholland/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>Harry, fifth in line to the throne, may never be king. But his mere choice of bride may give Britain a strong shove into the future.</description>
+      <dc:creator>SARAH LYALL</dc:creator>
+      <pubDate>Tue, 28 Nov 2017 20:46:37 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Harry, Prince of Wales</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Markle, Meghan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Royal Families</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Marriages</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Race and Ethnicity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Weddings and Engagements</category>
+    </item>
+    <item>
+      <title>&#x2018;It Was a Blood Bath&#x2019;: Freight Trains Kill 110 Reindeer in Norway</title>
+      <link>https://www.nytimes.com/2017/11/27/world/europe/norway-reindeer-trains.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/27/world/europe/norway-reindeer-trains.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/27/world/europe/norway-reindeer-trains.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/28/world/28norway/28norway-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>An image from a video taken on Saturday shows a train driving past dead reindeer near Mosjoen in northern Norway. More than 100 reindeer were killed by trains in the area in the past week.</media:description>
+      <media:credit>John Erling Utsi/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>Animal advocacy groups urge speed limits, new fencing and digital tracking to prevent more accidents.</description>
+      <dc:creator>HENRIK PRYSER LIBELL</dc:creator>
+      <pubDate>Tue, 28 Nov 2017 07:46:12 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Railroad Accidents and Safety</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Reindeer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Norway</category>
+    </item>
+    <item>
+      <title>Mick Mulvaney, Elizabeth Warren, Meghan Markle: Your Monday Evening Briefing</title>
+      <link>https://www.nytimes.com/2017/11/27/briefing/mick-mulvaney-elizabeth-warren-meghan-markle.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/27/briefing/mick-mulvaney-elizabeth-warren-meghan-markle.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/27/briefing/mick-mulvaney-elizabeth-warren-meghan-markle.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/27/briefing/27Eveningbriefing-slide-GTXH/27Eveningbriefing-slide-GTXH-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Win Mcnamee/Getty Images</media:credit>
+      <description>Here&#x2019;s what you need to know at the end of the day.</description>
+      <dc:creator>KAREN ZRAICK and DAVID SCULL</dc:creator>
+      <pubDate>Mon, 27 Nov 2017 23:29:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>Protest Targeting Opposition Lawmakers Stirs Outrage in Poland</title>
+      <link>https://www.nytimes.com/2017/11/27/world/europe/poland-protest-europe-tensions.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/27/world/europe/poland-protest-europe-tensions.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/27/world/europe/poland-protest-europe-tensions.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/28/world/28poland1/28poland1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Prime Minister Beata Szydlo of Poland, bottom center, during a parliamentary debate on a Supreme Court bill in Warsaw this year.</media:description>
+      <media:credit>Bartomiej Zborowski/European Pressphoto Agency</media:credit>
+      <description>Pictures of Polish opposition lawmakers shown on symbolic gallows have stirred memories of the intolerant politics of Poland&#x2019;s not-so-distant past.</description>
+      <dc:creator>JOANNA BERENDT</dc:creator>
+      <pubDate>Mon, 27 Nov 2017 22:40:34 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Poland</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">European Union</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Law and Justice (Poland)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Civic Platform (Poland)</category>
+    </item>
+    <item>
+      <title>She Accused a Moroccan Pop Star of Rape. Online, She Was Vilified.</title>
+      <link>https://www.nytimes.com/2017/11/27/world/middleeast/saad-lamjarred-rape-accusation.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/27/world/middleeast/saad-lamjarred-rape-accusation.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/27/world/middleeast/saad-lamjarred-rape-accusation.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/21/world/00morocco1/00morocco1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The Moroccan pop star Saad Lamjarred, center. He is awaiting trial on rape charges in France, where his 21-year-old accuser has gone into hiding after receiving threats from his fans.</media:description>
+      <media:credit>Fethi Belaid/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>A young Frenchwoman has made an internet plea to clear her name and counter threats, opening a debate about sexual assault in the Arab world.</description>
+      <dc:creator>AIDA ALAMI</dc:creator>
+      <pubDate>Tue, 28 Nov 2017 15:49:41 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lamjarred, Saad</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sex Crimes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Prioul, Laura</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women's Rights</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Morocco</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">France</category>
+    </item>
+    <item>
+      <title>Health of Bahrain&#x2019;s Top Shiite Cleric Worsens</title>
+      <link>https://www.nytimes.com/2017/11/27/world/middleeast/bahrain-sheikh-isa-qassim.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/27/world/middleeast/bahrain-sheikh-isa-qassim.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/27/world/middleeast/bahrain-sheikh-isa-qassim.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/28/world/28bahrain1/28bahrain1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Ayatollah Sheikh Isa Qassim, center, at a protest at a mosque in the capital of Bahrain, Manama, in 2014.</media:description>
+      <media:credit>Mohammed Al-Shaikh/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>Ayatollah Sheikh Isa Qassim, regarded as the spiritual voice of Bahrain&#x2019;s Shiite majority, risks deportation if he leaves his home for treatment.</description>
+      <dc:creator>RICK GLADSTONE</dc:creator>
+      <pubDate>Tue, 28 Nov 2017 02:13:43 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Qassim, Isa (1937- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Bahrain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Deportation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Middle East and North Africa Unrest (2010- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Persian Gulf</category>
+    </item>
+    <item>
+      <title>British Royal Weddings and the Barriers That Fell With Them</title>
+      <link>https://www.nytimes.com/2017/11/27/world/europe/british-royal-weddings.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/27/world/europe/british-royal-weddings.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/27/world/europe/british-royal-weddings.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/27/world/28xp-royals-slide-VNFR/28xp-royals-slide-VNFR-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Prince Harry and Meghan Markle at Kensington Palace in London on Monday.</media:description>
+      <media:credit>Daniel Leal-Olivas/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>A look back at other weddings by members of the British monarchy highlights the scrutiny and occasional controversy that have surrounded the couples.</description>
+      <dc:creator>CHRISTINE HAUSER</dc:creator>
+      <pubDate>Tue, 28 Nov 2017 00:51:36 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Weddings and Engagements</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Royal Families</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Church of England</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Armstrong-Jones, Antony (1930-2017)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Bowles, Camilla Parker</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Catherine, Duchess of Cambridge</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Charles, Prince of Wales</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Diana, Princess of Wales</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Edward VIII, King of England</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Elizabeth II, Queen of Great Britain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Markle, Meghan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Harry, Prince of Wales</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Cornwall (England)</category>
+    </item>
+    <item>
+      <title>Prince Harry Used Princess Diana&#x2019;s Diamonds in Engagement Ring</title>
+      <link>https://www.nytimes.com/2017/11/27/world/europe/prince-harry-engagement-ring.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/27/world/europe/prince-harry-engagement-ring.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/27/world/europe/prince-harry-engagement-ring.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/28/world/28xp-ring1/28xp-ring1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Prince Harry of Britain with his fianc&#xE9;e, Meghan Markle, as she showed off her engagement ring in the Sunken Garden at Kensington Palace in west London on Monday.</media:description>
+      <media:credit>Daniel Leal-Olivas/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>The diamonds flank a larger central stone from Botswana, where he and his fianc&#xE9;e, Meghan Markle, went on vacation early in their relationship.</description>
+      <dc:creator>NIRAJ CHOKSHI</dc:creator>
+      <pubDate>Mon, 27 Nov 2017 21:15:55 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Royal Families</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Weddings and Engagements</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Diamonds</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Jewels and Jewelry</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Harry, Prince of Wales</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Markle, Meghan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Diana, Princess of Wales</category>
+    </item>
+    <item>
+      <title>Two Former Mugabe Allies Are Held Without Bail in Zimbabwe</title>
+      <link>https://www.nytimes.com/2017/11/27/world/africa/zimbabwe-chombo-chipanga-mugabe.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/27/world/africa/zimbabwe-chombo-chipanga-mugabe.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/27/world/africa/zimbabwe-chombo-chipanga-mugabe.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/28/world/28zimbabwe1/28zimbabwe1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Ignatius Chombo, center left, and Kudzanai Chipanga &#x2014; former allies of Zimbabwe&#x2019;s ousted president &#x2014; being led to a prison truck at the magistrates court in Harare, Zimbabwe, on Saturday.</media:description>
+      <media:credit>Tsvangirayi Mukwazhi/Associated Press</media:credit>
+      <description>Their cases are being closely watched for signs about how the new government will deal with former allies of the ousted president.</description>
+      <dc:creator>JEFFREY MOYO</dc:creator>
+      <pubDate>Tue, 28 Nov 2017 00:58:39 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Mnangagwa, Emmerson</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Mugabe, Robert</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Zimbabwe</category>
+    </item>
+    <item>
+      <title>How Prince Harry Proposed to Meghan Markle</title>
+      <link>https://www.nytimes.com/video/world/europe/100000005572876/how-prince-harry-proposed-to-meghan-markle.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/video/world/europe/100000005572876/how-prince-harry-proposed-to-meghan-markle.html</guid>
+      <description>Prince Harry and his fianc&#xE9;e, Meghan Markle, an American actress and humanitarian, describe how they became engaged. Yes, he got down on one knee.</description>
+      <dc:creator/>
+      <pubDate>Mon, 27 Nov 2017 19:42:33 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/des">Actors and Actresses</category>
+      <category domain="http://www.nytimes.com/namespaces/nyt_org_all">New York Times</category>
+      <category domain="http://www.nytimes.com/namespaces/nyt_per">Harry, Prince of Wales</category>
+      <category domain="http://www.nytimes.com/namespaces/nyt_per">Markle, Meghan</category>
+    </item>
+    <item>
+      <title>Glyphosate, Top-Selling Weed Killer, Wins E.U. Approval for 5 Years</title>
+      <link>https://www.nytimes.com/2017/11/27/business/eu-glyphosate-pesticide.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/27/business/eu-glyphosate-pesticide.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/27/business/eu-glyphosate-pesticide.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/28/business/28WEEDKILLER1/28WEEDKILLER1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Edward Ford on his farm in Brentwood, England, where he relies on the weed killer glyphosate.</media:description>
+      <media:credit>Mary Turner/Reuters</media:credit>
+      <description>The decision to reauthorize use of the world&#x2019;s best-selling herbicide for an abbreviated period was made amid opposition from several of the union&#x2019;s member states, including France and Italy.</description>
+      <dc:creator>DANNY HAKIM</dc:creator>
+      <pubDate>Mon, 27 Nov 2017 22:03:42 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hazardous and Toxic Substances</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defoliants and Herbicides</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">European Union</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Europe</category>
+    </item>
+    <item>
+      <title>The Breakdown: How to Fix Australia&#x2019;s Paralyzed Parliament</title>
+      <link>https://www.nytimes.com/2017/11/27/world/australia/parliament-citizenship-constitution.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/27/world/australia/parliament-citizenship-constitution.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/27/world/australia/parliament-citizenship-constitution.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/25/world/25oz-citizenship-1/25oz-citizenship-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Skye Kakoschke-Moore, an Australian-British citizen, announced her resignation from the Senate on Wednesday as the leader of her party, Nick Xenophon, looked on.</media:description>
+      <media:credit>David Mariuz/European Pressphoto Agency</media:credit>
+      <description>Nine lawmakers were forced to resign because they are dual citizens. Scholars have a few ideas about how to change that.</description>
+      <dc:creator>ISABELLA KWAI</dc:creator>
+      <pubDate>Tue, 28 Nov 2017 01:55:44 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Legislatures and Parliaments</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Citizenship and Naturalization</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Australia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">vis-multimedia</category>
+    </item>
+    <item>
+      <title>After Tumultuous Week, Germany&#x2019;s Politics Look to the Familiar</title>
+      <link>https://www.nytimes.com/2017/11/27/world/europe/germany-merkel-government.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/27/world/europe/germany-merkel-government.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/27/world/europe/germany-merkel-government.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/28/world/28Germany2/28Germany2-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Chancellor Angela Merkel with leaders of her Christian Democratic Union party during a meeting in Berlin on Monday.</media:description>
+      <media:credit>John Macdougall/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>Leaders of the German chancellor&#x2019;s conservative party say a coalition with the Social Democrats would provide more stability than a minority government.</description>
+      <dc:creator>MELISSA EDDY</dc:creator>
+      <pubDate>Mon, 27 Nov 2017 17:29:05 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Christian Democratic Union (Germany)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Christian Social Union (Germany)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Social Democratic Party (Germany)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Merkel, Angela</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Germany</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Schulz, Martin (1955- )</category>
+    </item>
+    <item>
+      <title>Vietnamese Blogger Gets 7 Years in Jail for Reporting on Toxic Spill</title>
+      <link>https://www.nytimes.com/2017/11/27/world/asia/vietnam-nguyen-van-hoa-blogger.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/27/world/asia/vietnam-nguyen-van-hoa-blogger.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/27/world/asia/vietnam-nguyen-van-hoa-blogger.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/28/world/28Vietnam/28Vietnam-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Nguyen Van Hoa at his trial in Ha Tinh, Vietnam, on Monday. He was convicted of spreading anti-state propaganda for producing videos and writing about protests over an environmental disaster.</media:description>
+      <media:credit>Cong Tuong/Vietnam News Agency, via Associated Press</media:credit>
+      <description>Nguyen Van Hoa was convicted of spreading information about the discharge that killed marine life and sickened people along a 120-mile stretch of coastline.</description>
+      <dc:creator>RICHARD C. PADDOCK</dc:creator>
+      <pubDate>Mon, 27 Nov 2017 15:29:22 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Vietnam</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hazardous and Toxic Substances</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Water Pollution</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Blogs and Blogging (Internet)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Fish and Other Marine Life</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Formosa Ha Tinh Steel Corp</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Formosa Plastics Group</category>
+    </item>
+    <item>
+      <title>Tokyo Journal: Tokyo, Once a Cigarette Haven, Could Finally Kick Out the Smokers</title>
+      <link>https://www.nytimes.com/2017/11/27/world/asia/japan-tokyo-smoking.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/27/world/asia/japan-tokyo-smoking.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/27/world/asia/japan-tokyo-smoking.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/21/world/22tokyosmoking-1/22tokyosmoking-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Tokyo is considering a ban on smoking indoors in most public places. In this intensely rule-abiding country, some say changing smoking rules would test the resolve of many.</media:description>
+      <media:credit>Tomohiro Ohsumi for The New York Times</media:credit>
+      <description>A no-smoking ordinance being considered by the city raises the question of whether the famously rule-abiding Japanese would obey it.</description>
+      <dc:creator>MOTOKO RICH</dc:creator>
+      <pubDate>Mon, 27 Nov 2017 14:46:07 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Tokyo (Japan)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Smoking and Tobacco</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Japan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+    </item>
+    <item>
+      <title>Pope Francis Arrives in a Myanmar Tarnished by Rohingya Crackdown</title>
+      <link>https://www.nytimes.com/2017/11/27/world/asia/pope-francis-myanmar-aung-san-suu-kyi.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/11/27/world/asia/pope-francis-myanmar-aung-san-suu-kyi.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/11/27/world/asia/pope-francis-myanmar-aung-san-suu-kyi.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/28/world/28pope-1/28pope-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Pope Francis after his arrival on Monday at the airport in Yangon, Myanmar.</media:description>
+      <media:credit>Vincenzo Pinto/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>The pope met with the top commander of the military, which has led a campaign to drive Rohingya Muslims out. He will meet Daw Aung San Suu Kyi on Tuesday.</description>
+      <dc:creator>JASON HOROWITZ</dc:creator>
+      <pubDate>Tue, 28 Nov 2017 09:19:08 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Francis</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Rohingya (Ethnic Group)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Aung San Suu Kyi</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Min Aung Hlaing</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Myanmar</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">War Crimes, Genocide and Crimes Against Humanity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Roman Catholic Church</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">vis-multimedia</category>
+    </item>
+  </channel>
+</rss>
