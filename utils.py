@@ -26,12 +26,12 @@ def getRelevantSummaries():
 
 
 def getSentences(string, nLanguage = 'portuguese'):
-	sentences = []
-	stringSplit = string.split('\n\n')
-	for string in stringSplit:
-		sent = nltk.sent_tokenize(string, nLanguage)
-		sentences += sent
-	return sentences
+    sentences = []
+    stringSplit = string.split('\n\n')
+    for string in stringSplit:
+        sent = nltk.sent_tokenize(string, nLanguage)
+        sentences += sent
+    return sentences
 
 def ngrams(document, n):
 	words = nltk.word_tokenize(document, 'portuguese')
