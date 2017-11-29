@@ -10,6 +10,13 @@ def cleanhtml(raw_html):
     return cleantext.strip()
 
 
+def getLinkFromXML(file):
+    tree = ET.parse(file)
+    root = tree.getroot()
+    for items in root.iter('item'):
+        link = items.find('link').text
+        print(link)
+
 def getSentencesfromXML(file):
     sentences = []
     tree = ET.parse(file)
@@ -20,7 +27,6 @@ def getSentencesfromXML(file):
         if title != None:
             titleSentences = getSentences(title)
             sentences += titleSentences
-        
         #DESCRIPTION
         description = items.find('description').text
         descriptionClean = cleanhtml(description)
@@ -29,13 +35,16 @@ def getSentencesfromXML(file):
         
     return sentences
 
-def main():
-    fileSentences = []
-    for file in os.listdir(os.getcwd()):
-        print(file)
-        if file.endswith('.xml') or file.endswith('.rss'):
-            fileSentences += getSentencesfromXML(file)
-    print(fileSentences)
+getLinkFromXML('Washington_Post.xml')
 
-if __name__ == '__main__':
-    main()
+#def main():
+#    fileSentences = []
+#    for file in os.listdir(os.getcwd()):
+#        print(file)
+#        if file.endswith('.xml') or file.endswith('.rss'):
+#            fileSentences += getSentencesfromXML(file)
+#    print(fileSentences)
+#
+#if __name__ == '__main__':
+#    main()
+
