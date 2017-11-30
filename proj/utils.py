@@ -4,6 +4,7 @@ from math import log
 from collections import Counter
 import numpy as np
 import nltk
+import os
 from nltk.tokenize import RegexpTokenizer
 from sklearn.metrics.pairwise import cosine_similarity
 
@@ -15,15 +16,13 @@ def getString(file):
 	return text
 
 def getRelevantSummaries():
-	home = os.getcwd()
+	path = os.getcwd() + '/test_pt/'
 	summaries = []
-	for doc in os.listdir(home + '/test_pt'):
-		summary = getString(doc)
+	for doc in os.listdir(path):
+		summary = getString(path + doc)
 		summary = getSentences(summary)
 		summaries.append(summary)
 	return summaries
-
-
 
 def getSentences(string, nLanguage = 'portuguese'):
     sentences = []
@@ -103,7 +102,7 @@ def docSimilarity(corpus, query):
 	similarity = cosine_similarity(documentsMatrix, queryVector)
 	return similarity
 
-def docSummary(dictionary, sentencesList, sort = False):
+def getTopSentences(dictionary, sentencesList, sort = False):
 	sentencesID = sorted(dictionary, key = dictionary.get, reverse = True)[:5]
 	if sort:
 		sentencesID.sort()
@@ -111,14 +110,6 @@ def docSummary(dictionary, sentencesList, sort = False):
 	for ID in sentencesID:
 		topSentences.append(sentencesList[ID])
 	return topSentences
-
-def getPredictedSummaries():
-	home = os.getcwd()
-	summaries = []
-	for doc in os.listdir(home + '/train_pt'):
-		summary = docSummary(dic, sentList)
-		summaries.append(summary)
-	return summaries
 
 def getPrecision(prediction, goal):
 	truePositives = 0
@@ -142,8 +133,3 @@ def map(predList, goalList):
 		aprecision = avgPrecision(predList[i], goalList[i])
 		aprecisionSum += aprecision
 	return aprecisionSum / len(predList)
-
-def calculateMetrics(relevantList, predictionList):
-	precision = meanPrecision(predictionList, relevantList)
-	MAP = map(predictionList, relevantList)
-	return MAP

@@ -1,13 +1,11 @@
 #Projecto Part2
 
-from utils import getString, getSentences
-from utils import docSimilarity, docSummary
+from utils import getString, getSentences, getTopSentences
+from utils import docSimilarity
 
 #OPTIMIZE INVERTED TABLE
-def createGraph(document, threshold = 0.2):
+def createGraph(sentenceList, threshold = 0.2):
 	graphDict = {}
-	docString = getString(document)
-	sentenceList = getSentences(docString, 'english')
 	for sentenceID in range(0, len(sentenceList)):
 		graphDict[sentenceID] = []
 
@@ -32,17 +30,27 @@ def pageRank(graph, df = 0.15, maxIterations = 50):
 			for linkedNode in graph[node]:
 				linkSum += pRankDict[linkedNode] / len(graph[linkedNode])
 			pRankDict[node] = discountFactor + (1 - df) * linkSum
-	print(pRankDict)
 	return pRankDict
 
+#ORDER ATTRIBUTE
+def docSummary(file, ordered = False):
+	documentString = getString(file)
+	sentencesList = getSentences(documentString)
+	graphDict = createGraph(sentencesList)
+	pRankDict = pageRank(graphDict)
+	topSentences = getTopSentences(pRankDict, sentencesList, ordered)
+	return topSentences
+
+def docSummary4(sentencesList, ordered = False):
+	graphDict = createGraph(sentencesList)
+	pRankDict = pageRank(graphDict)
+	topSentences = getTopSentences(pRankDict, sentencesList, ordered)
+	return topSentences
 
 def main():
-	documentString = getString('file_english.txt')
-	sentencesList = getSentences(documentString)
-	graphDict = createGraph('file_english.txt')
-	pRankDict = pageRank(graphDict)
-	topSentences = docSummary(pRankDict, sentencesList, sort = True)
-	for sent in topSentences: print(sent)
+	summary = docSummary('file_english.txt', ordered = True)
+	print('---- Summary for document file_english.txt ----')
+	for sent in summary: print(sent)
 
 if __name__ == '__main__':
 	main()
