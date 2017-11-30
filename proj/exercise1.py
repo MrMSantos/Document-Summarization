@@ -33,18 +33,13 @@ def pageRank(graph, df = 0.15, maxIterations = 50):
 	return pRankDict
 
 #ORDER ATTRIBUTE
-def docSummary(file, ordered = False):
-	documentString = getString(file)
-	sentencesList = getSentences(documentString)
-	graphDict = createGraph(sentencesList)
+def docSummary(document, ordered = False):
+	if isinstance(document, str):
+		documentString = getString(document)
+		document = getSentences(documentString)
+	graphDict = createGraph(document)
 	pRankDict = pageRank(graphDict)
-	topSentences = getTopSentences(pRankDict, sentencesList, ordered)
-	return topSentences
-
-def docSummary4(sentencesList, ordered = False):
-	graphDict = createGraph(sentencesList)
-	pRankDict = pageRank(graphDict)
-	topSentences = getTopSentences(pRankDict, sentencesList, ordered)
+	topSentences = getTopSentences(pRankDict, document, ordered)
 	return topSentences
 
 def main():

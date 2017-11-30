@@ -1,5 +1,5 @@
 #Projecto Part2
-from exercise1 import docSummary4
+from exercise1 import docSummary
 from utils import getSentences
 from xml.etree import cElementTree as ET
 import re
@@ -42,7 +42,7 @@ def main():
     for file in os.listdir(os.getcwd()):
         if file.endswith('.xml') or file.endswith('.rss'):
             fileSentences += getSentencesfromXML(file)
-    summary = docSummary4(fileSentences)
+    summary = docSummary(fileSentences)
     print(summary)
 
 if __name__ == '__main__':
