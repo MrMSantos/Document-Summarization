@@ -33,17 +33,17 @@ def pageRank(graph, df = 0.15, maxIterations = 50):
 	return pRankDict
 
 #ORDER ATTRIBUTE
-def docSummary(document, ordered = False):
+def docSummary(document, ordered = False, language = 'portuguese'):
 	if isinstance(document, str):
 		documentString = getString(document)
-		document = getSentences(documentString)
+		document = getSentences(documentString, language)
 	graphDict = createGraph(document)
 	pRankDict = pageRank(graphDict)
 	topSentences = getTopSentences(pRankDict, document, ordered)
 	return topSentences
 
 def main():
-	summary = docSummary('file_english.txt', ordered = True)
+	summary = docSummary('file_english.txt', ordered = True, language = 'english')
 	print('---- Summary for document file_english.txt ----')
 	for sent in summary: print(sent)
 

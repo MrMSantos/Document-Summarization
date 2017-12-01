@@ -16,7 +16,7 @@ def getString(file):
 	return text
 
 def getRelevantSummaries():
-	path = os.getcwd() + '/test_pt/'
+	path = './test_pt/'
 	summaries = []
 	for doc in os.listdir(path):
 		summary = getString(path + doc)
@@ -24,16 +24,16 @@ def getRelevantSummaries():
 		summaries.append(summary)
 	return summaries
 
-def getSentences(string, nLanguage = 'portuguese'):
+def getSentences(string, language = 'portuguese'):
     sentences = []
     stringSplit = string.split('\n\n')
     for string in stringSplit:
-        sent = nltk.sent_tokenize(string, nLanguage)
+        sent = nltk.sent_tokenize(string, language)
         sentences += sent
     return sentences
 
 def ngrams(document, n):
-	words = nltk.word_tokenize(document, 'portuguese')
+	words = nltk.word_tokenize(document)
 	ngram = nltk.ngrams(words, n)
 	ngramCounter = Counter(ngram)
 	return ngramCounter

@@ -23,7 +23,7 @@ def pageRankOpt(graph, df = 0.15, maxIterations = 50):
 	return pRankDict
 
 def getPredictedSummaries():
-	path = os.getcwd() + '/train_pt/'
+	path = './train_pt/'
 	summaries = []
 	for doc in os.listdir(path):
 		summary = docSummary(path + doc)
@@ -34,7 +34,7 @@ def main():
 	predictedSum = getPredictedSummaries()
 	relevantSum = getRelevantSummaries()
 	MAP = map(predictedSum, relevantSum)
-	print(MAP)
+	print('Mean Average Precision:', MAP)
 
 if __name__ == '__main__':
 	main()
