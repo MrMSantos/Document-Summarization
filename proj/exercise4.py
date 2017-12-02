@@ -12,18 +12,13 @@ begin = """<!DOCTYPE html>
     <head>
     
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    
     <title>Processamento e Recuperação de Informação</title>
     
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="exercise4_HTML/css/bootstrap.min.css" rel="stylesheet">
     
     <!-- Custom CSS -->
-    <link href="css/one-page-wonder.css" rel="stylesheet">
+    <link href="exercise4_HTML/css/one-page-wonder.css" rel="stylesheet">
     
     </head>
     <body>
@@ -37,8 +32,7 @@ begin = """<!DOCTYPE html>
     </div>
     </div>
     </header>
-    
-    <!-- Page Content -->
+
     <div class="container">
     
     <hr class="featurette-divider">
@@ -49,7 +43,6 @@ end= """
     
     <hr class="featurette-divider">
     
-    <!-- Footer -->
     <footer>
     <div class="row"  style="background-color:">
     <div class="col-lg-12">
@@ -59,12 +52,9 @@ end= """
     </footer>
     
     </div>
-    <!-- /.container -->
-    
-    <!-- jQuery -->
+
     <script src="js/jquery.js"></script>
-    
-    <!-- Bootstrap Core JavaScript -->
+
     <script src="js/bootstrap.min.js"></script>
     
     </body>
@@ -73,14 +63,13 @@ end= """
     """
 
 link_begin= """
-    <!-- First Featurette -->
     <div class="featurette" id="about">
     <h2 class="featurette-heading">Summary</h2>
     <br>
     <p class="lead size-text"><a href="
     """
 link_end= """
-    ">
+    " target="_blank">
     """
 text = """
     </a>
@@ -106,7 +95,6 @@ def getLinkFromXML(sentence):
                 description = items.find('description').text
                 if((title != None and sentence in title) or sentence in description):
                     return items.find('link').text
-    return;
 
 def getSentencesfromXML(file, language = 'english'):
     sentences = []
@@ -125,15 +113,6 @@ def getSentencesfromXML(file, language = 'english'):
         sentences += descriptionSentences
     return sentences
 
-#getLinkFromXML('Washington_Post.xml')
-
-def CheckUserExists(user):
-    with open("C:/~/database.txt", 'r') as file:
-        if re.search('^{0}$'.format(re.escape(user)), file.read(), flags=re.M):
-            return True
-        else:
-            return False
-
 def main():
     fileSentences = []
     f = open('summary.html','w')
@@ -146,7 +125,6 @@ def main():
         link = getLinkFromXML(sum)
         message += (link_begin + link + link_end + sum + text)
     message += end
-    print(message)
     f.write(message)
     f.close()
 
