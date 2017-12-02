@@ -15,10 +15,10 @@ begin = """<!DOCTYPE html>
     <title>Processamento e Recuperação de Informação</title>
     
     <!-- Bootstrap Core CSS -->
-    <link href="exercise4_HTML/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     
     <!-- Custom CSS -->
-    <link href="exercise4_HTML/css/one-page-wonder.css" rel="stylesheet">
+    <link href="css/one-page-wonder.css" rel="stylesheet">
     
     </head>
     <body>
