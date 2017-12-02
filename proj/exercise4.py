@@ -38,7 +38,7 @@ begin = """<!DOCTYPE html>
     <hr class="featurette-divider">
     """
 
-end= """
+end = """
     </div>
     
     <hr class="featurette-divider">
@@ -62,13 +62,13 @@ end= """
     </html>
     """
 
-link_begin= """
+link_begin = """
     <div class="featurette" id="about">
     <h2 class="featurette-heading">Summary</h2>
     <br>
     <p class="lead size-text"><a href="
     """
-link_end= """
+link_end = """
     " target="_blank">
     """
 text = """
@@ -86,14 +86,15 @@ def cleanhtml(raw_html):
     return cleantext.strip()
 
 def getLinkFromXML(sentence):
-    for file in os.listdir(os.getcwd()):
+    path = './news_xml/'
+    for file in os.listdir(path):
         if file.endswith('.xml') or file.endswith('.rss'):
-            tree = ET.parse(file)
+            tree = ET.parse(path + file)
             root = tree.getroot()
             for items in root.iter('item'):
                 title = items.find('title').text
                 description = items.find('description').text
-                if((title != None and sentence in title) or sentence in description):
+                if ((title != None and sentence in title) or sentence in description):
                     return items.find('link').text
 
 def getSentencesfromXML(file, language = 'english'):
@@ -115,11 +116,12 @@ def getSentencesfromXML(file, language = 'english'):
 
 def main():
     fileSentences = []
-    f = open('summary.html','w')
+    f = open('./exercise4_html/summary.html', 'w')
     message = begin
-    for file in os.listdir(os.getcwd()):
+    path = './news_xml/'
+    for file in os.listdir(path):
         if file.endswith('.xml') or file.endswith('.rss'):
-            fileSentences += getSentencesfromXML(file)
+            fileSentences += getSentencesfromXML(path + file)
     summary = docSummary(fileSentences)
     for sum in summary:
         link = getLinkFromXML(sum)

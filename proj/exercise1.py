@@ -43,7 +43,7 @@ def docSummary(document, ordered = False, language = 'portuguese'):
 	return topSentences
 
 def main():
-	summary = docSummary('file_english.txt', ordered = True, language = 'english')
+	summary = docSummary('./train_en/file_english.txt', ordered = True, language = 'english')
 	print('---- Summary for document file_english.txt ----')
 	for sent in summary: print(sent)
 
