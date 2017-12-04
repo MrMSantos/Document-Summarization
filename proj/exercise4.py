@@ -26,23 +26,20 @@ begin = """<!DOCTYPE html>
     <header class="header-image">
     <div class="headline">
     <div class="container">
-    <h1 style="color: #fff">Summarys</h1>
+    <h1 style="color: #fff">Daily World News</h1>
     <br>
-    <h4 style="color: #fff; font-weight: lighter;">Processamento e Recuperação de Informação</h4>
+    <h4 style="color: #fff; font-weight: lighter;">Information Processing and Retrieval</h4>
     </div>
     </div>
     </header>
 
     <div class="container">
-    
+    <h2 class="featurette-heading">Summarys</h2>
     <hr class="featurette-divider">
     """
 
 end = """
     </div>
-    
-    <hr class="featurette-divider">
-    
     <footer>
     <div class="row"  style="background-color:">
     <div class="col-lg-12">
@@ -64,7 +61,6 @@ end = """
 
 link_begin = """
     <div class="featurette" id="about">
-    <h2 class="featurette-heading">Summary</h2>
     <br>
     <p class="lead size-text"><a href="
     """
