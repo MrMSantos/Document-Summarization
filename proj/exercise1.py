@@ -14,22 +14,33 @@ def createGraph(sentenceList, invIndex, threshold = 0.2):
 		for similarityID in range(0, len(similarityList)):
 			if similarityList[similarityID] > threshold and sentenceID != similarityID:
 				graphDict[sentenceID].append(similarityID)
-	return graphDict
+
+	
+	if all(len(graphDict[node]) == 0 for node in graphDict):
+		return graphDict
+
+	newGraphDict = {}
+	for node in graphDict:
+		if len(graphDict[node]) != 0:
+			newGraphDict[node] = graphDict[node]
+	return newGraphDict
 
 #VERIFICAR SE OS VALORES SE ALTERARAM A CADA ITERAÇÃO
 def pageRank(graph, df = 0.15, maxIterations = 50):
 	pRankDict = {}
 	graphLen = len(graph)
 	uniformProbability = 1 / graphLen
-	for sentenceID in range(0, len(graph)):
-		pRankDict[sentenceID] = uniformProbability
+	for node in graph:
+		pRankDict[node] = uniformProbability
+	discountFactor = df / graphLen
 	for _ in range(0, maxIterations):
+		auxDict = {}
 		for node in graph:
-			discountFactor = df / graphLen
 			linkSum = 0
 			for linkedNode in graph[node]:
 				linkSum += pRankDict[linkedNode] / len(graph[linkedNode])
-			pRankDict[node] = discountFactor + (1 - df) * linkSum
+			auxDict[node] = discountFactor + (1 - df) * linkSum
+		pRankDict = auxDict
 	return pRankDict
 
 #ORDER ATTRIBUTE
@@ -44,7 +55,7 @@ def docSummaryEx1(document, ordered = False, language = 'portuguese'):
 	return topSentences
 
 def main():
-	summary = docSummary('./train_en/file_english.txt', ordered = True, language = 'english')
+	summary = docSummaryEx1('./train_en/file_english.txt', ordered = True, language = 'english')
 	print('---- Summary for document file_english.txt ----')
 	for sent in summary: print(sent)
 

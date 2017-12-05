@@ -27,8 +27,8 @@ def pageRankOpt(graph, priorDict, weightDict, df = 0.15, maxIterations = 50):
 	pRankDict = {}
 	graphLen = len(graph)
 	uniformProbability = 1 / graphLen
-	for sentenceID in range(0, len(graph)):
-		pRankDict[sentenceID] = uniformProbability
+	for node in graph:
+		pRankDict[node] = uniformProbability
 	for _ in range(0, maxIterations):
 		for node in graph:
 			discountFactor = df * priorDict[node]
