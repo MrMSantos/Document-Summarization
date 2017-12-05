@@ -1,16 +1,16 @@
 #Projecto Part2
 
 from utils import getString, getSentences, getTopSentences
-from utils import docSimilarity
+from utils import invertedIndex, docSimilarity
 
 #OPTIMIZE INVERTED TABLE
-def createGraph(sentenceList, threshold = 0.2):
+def createGraph(sentenceList, invIndex, threshold = 0.2):
 	graphDict = {}
 	for sentenceID in range(0, len(sentenceList)):
 		graphDict[sentenceID] = []
 
 	for sentenceID in range(0, len(sentenceList)):
-		similarityList = docSimilarity(sentenceList, sentenceList[sentenceID])
+		similarityList = docSimilarity(invIndex, sentenceList, [sentenceList[sentenceID]])
 		for similarityID in range(0, len(similarityList)):
 			if similarityList[similarityID] > threshold and sentenceID != similarityID:
 				graphDict[sentenceID].append(similarityID)
@@ -33,11 +33,12 @@ def pageRank(graph, df = 0.15, maxIterations = 50):
 	return pRankDict
 
 #ORDER ATTRIBUTE
-def docSummary(document, ordered = False, language = 'portuguese'):
+def docSummaryEx1(document, ordered = False, language = 'portuguese'):
 	if isinstance(document, str):
 		documentString = getString(document)
 		document = getSentences(documentString, language)
-	graphDict = createGraph(document)
+	invIndex = invertedIndex(document)
+	graphDict = createGraph(document, invIndex)
 	pRankDict = pageRank(graphDict)
 	topSentences = getTopSentences(pRankDict, document, ordered)
 	return topSentences

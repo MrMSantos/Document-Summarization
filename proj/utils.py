@@ -47,20 +47,22 @@ def wordCounter(document):
 	return counter
 
 def invertedIndex(documents):
-	sentNum = 0
 	sentList = []
 	invIndex = {}
 	for doc in documents:
 		sentList.append(wordCounter(doc))
 	for doc in sentList:
 		for word in doc:
-			if word not in invIndex:
-				invIndex[word] = [[sentNum + 1, doc[word]]]
+			if word[0] not in invIndex:
+				invIndex[word[0]] = 1
 			else:
-				invIndex[word].append([sentNum + 1, doc[word], ])
-		sentNum += 1
-	return (invIndex, sentNum)
+				invIndex[word[0]] += 1
+	for word in invIndex:
+		wordIDF = log(len(documents) / invIndex[word])
+		invIndex[word] = (invIndex[word], wordIDF)
+	return invIndex
 
+#DEPRECATED
 def idfDict(invIndex):
 	idfDict = {}
 	for word in invIndex[0]:
@@ -73,32 +75,30 @@ def tfDict(query):
 	if len(tfQuery) != 0:
 		maxTF = max(tfQuery.values())
 	for word in tfQuery:
-		tfDict[word] = tfQuery[word] / maxTF
+		tfDict[word[0]] = tfQuery[word] / maxTF
 	return tfDict
 
-def sparseVector(invIndex, idfDict, query):
+def sparseVector(invIndex, query):
 	tfD = tfDict(query)
-	matrix = np.zeros((1, len(invIndex[0])))
+	matrix = np.zeros((1, len(invIndex)))
 	wordInd = 0
-	for word in invIndex[0]:
+	for word in invIndex:
 		if word in tfD:
-			tfidf = tfD[word] * idfDict[word]
+			tfidf = tfD[word] * invIndex[word][1]
 			matrix[0, wordInd] = tfidf
 		wordInd += 1
 	return matrix
 
-def sparseMatrix(invIndex, idfDict, documents):
-	sparseMatrix = sparseVector(invIndex, idfDict, documents[0])
+def sparseMatrix(invIndex, documents):
+	sparseMatrix = sparseVector(invIndex, documents[0])
 	for query in documents[1:]:
-		nextVector = sparseVector(invIndex, idfDict, query)
+		nextVector = sparseVector(invIndex, query)
 		sparseMatrix = np.concatenate((sparseMatrix, nextVector), axis = 0)
 	return sparseMatrix
 
-def docSimilarity(corpus, query):
-	invIndex = invertedIndex(corpus)
-	idfD = idfDict(invIndex)
-	documentsMatrix = sparseMatrix(invIndex, idfD, corpus)
-	queryVector = sparseVector(invIndex, idfD, query)
+def docSimilarity(invIndex, query1, query2):
+	documentsMatrix = sparseMatrix(invIndex, query1)
+	queryVector = sparseMatrix(invIndex, query2)
 	similarity = cosine_similarity(documentsMatrix, queryVector)
 	return similarity
 

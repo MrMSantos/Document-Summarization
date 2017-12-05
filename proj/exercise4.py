@@ -1,6 +1,6 @@
 #Projecto Part2
 
-from exercise1 import docSummary
+from exercise1 import docSummaryEx1
 from utils import getSentences
 from xml.etree import cElementTree as ET
 import re
@@ -118,7 +118,7 @@ def main():
     for file in os.listdir(path):
         if file.endswith('.xml') or file.endswith('.rss'):
             fileSentences += getSentencesfromXML(path + file)
-    summary = docSummary(fileSentences)
+    summary = docSummaryEx1(fileSentences)
     for sum in summary:
         link = getLinkFromXML(sum)
         message += (link_begin + link + link_end + sum + text)
