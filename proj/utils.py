@@ -3,10 +3,12 @@
 from math import log
 from collections import Counter
 import numpy as np
+import pickle
 import nltk
 import os
 from nltk.tokenize import RegexpTokenizer
 from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.preprocessing import normalize
 
 def getString(file):
 	text = ''
@@ -62,13 +64,6 @@ def invertedIndex(documents):
 		invIndex[word] = (invIndex[word], wordIDF)
 	return invIndex
 
-#DEPRECATED
-def idfDict(invIndex):
-	idfDict = {}
-	for word in invIndex[0]:
-		idfDict[word] = log(invIndex[1] / len(invIndex[0][word]))
-	return idfDict
-
 def tfDict(query):
 	tfDict = {}
 	tfQuery = wordCounter(query)
@@ -102,6 +97,34 @@ def docSimilarity(invIndex, query1, query2):
 	similarity = cosine_similarity(documentsMatrix, queryVector)
 	return similarity
 
+#Trained with nltk.floresta, tagged with unigrams and bigrams
+def npSearch(document):
+	tagger2 = pickle.load(open('trainer', 'rb'))
+	resultTags = tagger2.tag(document.split())
+	twords = [(w.lower(), simplify_tag(t)) for (w, t) in resultTags]
+	newtwords = []
+	for (w, t) in twords:
+		newtwords.append((''.join(c for c in w if c not in ('!','.',':', ',')), t))
+	grammar = 'NP: {<art>?<n>+<adj>*}'
+	cp = nltk.RegexpParser(grammar)
+	tree = cp.parse(newtwords)
+	nounSent = []
+	for subtree in tree.subtrees():
+		if subtree.label() == 'NP':
+			leaves = subtree.leaves()
+			word = ''
+			for wordPair in leaves:
+				word += wordPair[0] + ' '
+			word = word[:-1]
+			nounSent.append(word)
+	return nounSent
+
+def simplify_tag(t):
+	if '+' in t:
+		return t[t.index("+") + 1:]
+	else:
+		return t
+
 def getTopSentences(dictionary, sentencesList, sort = False):
 	sentencesID = sorted(dictionary, key = dictionary.get, reverse = True)[:5]
 	if sort:
@@ -110,6 +133,18 @@ def getTopSentences(dictionary, sentencesList, sort = False):
 	for ID in sentencesID:
 		topSentences.append(sentencesList[ID])
 	return topSentences
+
+def normalizeDict(graph):
+	vector = []
+	newGraph = {}
+	for node in graph:
+		vector.append(graph[node])
+	normVector = [float(i) / sum(vector) for i in vector]
+	i = 0
+	for node in graph:
+		newGraph[node] = normVector[i]
+		i += 1
+	return newGraph
 
 def getPrecision(prediction, goal):
 	truePositives = 0

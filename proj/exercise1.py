@@ -4,7 +4,7 @@ from utils import getString, getSentences, getTopSentences
 from utils import invertedIndex, docSimilarity
 
 #OPTIMIZE INVERTED TABLE
-def createGraph(sentenceList, invIndex, threshold = 0.2):
+def createGraph(sentenceList, invIndex, threshold = 0.15):
 	graphDict = {}
 	for sentenceID in range(0, len(sentenceList)):
 		graphDict[sentenceID] = []
@@ -14,7 +14,6 @@ def createGraph(sentenceList, invIndex, threshold = 0.2):
 		for similarityID in range(0, len(similarityList)):
 			if similarityList[similarityID] > threshold and sentenceID != similarityID:
 				graphDict[sentenceID].append(similarityID)
-
 	
 	if all(len(graphDict[node]) == 0 for node in graphDict):
 		return graphDict
@@ -30,16 +29,18 @@ def pageRank(graph, df = 0.15, maxIterations = 50):
 	pRankDict = {}
 	graphLen = len(graph)
 	uniformProbability = 1 / graphLen
+	discountFactor = df / graphLen
+	updateDF = 1 - df
 	for node in graph:
 		pRankDict[node] = uniformProbability
-	discountFactor = df / graphLen
+	
 	for _ in range(0, maxIterations):
 		auxDict = {}
 		for node in graph:
 			linkSum = 0
 			for linkedNode in graph[node]:
 				linkSum += pRankDict[linkedNode] / len(graph[linkedNode])
-			auxDict[node] = discountFactor + (1 - df) * linkSum
+			auxDict[node] = discountFactor + updateDF * linkSum
 		pRankDict = auxDict
 	return pRankDict
 
