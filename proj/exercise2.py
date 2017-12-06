@@ -117,7 +117,7 @@ def docSummaryEx2(document):
 
 #Summaries for exercise 1
 def getPredictedSummariesEx1():
-	path = './train_pt/'
+	path = './corpus_test/train_set/'
 	summaries = []
 	for doc in os.listdir(path):
 		summary = docSummaryEx1(path + doc)
@@ -126,7 +126,7 @@ def getPredictedSummariesEx1():
 
 #Summaries for exercise 2
 def getPredictedSummariesEx2():
-	path = './train_pt/'
+	path = './corpus_test/train_set/'
 	summaries = []
 	for doc in os.listdir(path):
 		summary = docSummaryEx2(path + doc)

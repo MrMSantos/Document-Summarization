@@ -18,7 +18,7 @@ def getString(file):
 	return text
 
 def getRelevantSummaries():
-	path = './test_pt/'
+	path = './corpus_test/test_set/'
 	summaries = []
 	for doc in os.listdir(path):
 		summary = getString(path + doc)
