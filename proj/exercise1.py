@@ -24,7 +24,6 @@ def createGraph(sentenceList, invIndex, threshold = 0.15):
 			newGraphDict[node] = graphDict[node]
 	return newGraphDict
 
-#VERIFICAR SE OS VALORES SE ALTERARAM A CADA ITERAÇÃO
 def pageRank(graph, df = 0.15, maxIterations = 50):
 	pRankDict = {}
 	graphLen = len(graph)
@@ -44,7 +43,6 @@ def pageRank(graph, df = 0.15, maxIterations = 50):
 		pRankDict = auxDict
 	return pRankDict
 
-#ORDER ATTRIBUTE
 def docSummaryEx1(document, ordered = False, language = 'portuguese'):
 	if isinstance(document, str):
 		documentString = getString(document)
@@ -54,6 +52,7 @@ def docSummaryEx1(document, ordered = False, language = 'portuguese'):
 	pRankDict = pageRank(graphDict)
 	topSentences = getTopSentences(pRankDict, document, ordered)
 	return topSentences
+
 
 def main():
 	summary = docSummaryEx1('./train_en/file_english.txt', ordered = True, language = 'english')

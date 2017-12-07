@@ -129,15 +129,17 @@ def docSummaryEx2(document):
 	invIndex = invertedIndex(document)
 	graphDict = createGraph(document, invIndex)
 
+	#Prior Functions
+	priorDict = nodePriorPosition(document, documentString)
 	#priorDict = nodePriorSimilarity(invIndex, document, documentString)
 	#priorDict = nodePriorDegree(graphDict, document)
 	#priorDict = nodePriorScores(invIndex, document, documentString)
-	priorDict = nodePriorPosition(document, documentString)
 	#priorDict = nodePriorNoun(document)
 
+	#Weight Functions
+	weightDict = edgeWeightScores(graphDict, invIndex, document, documentString)
 	#weightDict = edgeWeightSimilarity(invIndex, graphDict, document)
 	#weightDict = edgeWeightNoun(graphDict, document)
-	weightDict = edgeWeightScores(graphDict, invIndex, document, documentString)
 
 	pRankDict = pageRankOpt(graphDict, priorDict, weightDict)
 	topSentences = getTopSentences(pRankDict, document)
@@ -163,6 +165,13 @@ def getPredictedSummariesEx2():
 
 
 def main():
+	print("Calculating MAP for exercise 1")
+	predictedSum = getPredictedSummariesEx1()
+	relevantSum = getRelevantSummaries()
+	MAP = map(predictedSum, relevantSum)
+	print('Mean Average Precision:', MAP)
+
+	print("Calculating MAP for exercise 2")
 	predictedSum = getPredictedSummariesEx2()
 	relevantSum = getRelevantSummaries()
 	MAP = map(predictedSum, relevantSum)
