@@ -4,7 +4,7 @@ import os
 from utils import getString, getSentences, getTopSentences
 from utils import getRelevantSummaries, map
 from utils import invertedIndex
-from exercise2 import createGraph
+from exercise2 import createGraph, nodePriorPosition
 from exercise2 import nodePriorSimilarity, nodePriorScores, nodePriorDegree
 from sklearn.linear_model import Perceptron
 
@@ -14,12 +14,14 @@ def getFeatures(documentString, documentSentences):
 	graph = createGraph(documentSentences, invIndex)
 
 	priorDictSim = nodePriorSimilarity(invIndex, documentSentences, documentString)
-	priorDictDegree = nodePriorDegree(graph, documentSentences)
+	#priorDictDegree = nodePriorDegree(graph, documentSentences)
+	priorDictPosition = nodePriorPosition(documentSentences, documentString)
 
 	for i in range(0, len(documentSentences)):
 		sentenceScore = []
 		sentenceScore.append(priorDictSim[i])
-		sentenceScore.append(priorDictDegree[i])
+		#sentenceScore.append(priorDictDegree[i])
+		sentencesScore.append(priorDictPosition[i])
 		features.append(sentenceScore)
 	return features
 
@@ -62,10 +64,11 @@ def docSummaryEx3(document, weightsList):
 
 	#Calculate features and update sentences scores
 	priorDictSim = nodePriorSimilarity(invIndex, document, documentString)
-	priorDictDegree = nodePriorDegree(invIndex, document)
+	#priorDictDegree = nodePriorDegree(invIndex, document)
 	#priorDictScores = nodePriorScores(invIndex, document, documentString)
+	priorDictPosition = nodePriorPosition(document, documentString)
 	for node in range(0, len(document)):
-		documentScore[node] = priorDictSim[node] * weightsList[0] + priorDictDegree[node] * weightsList[1]
+		documentScore[node] = priorDictSim[node] * weightsList[0] + priorDictDegree[node] * weightsList[1] + priorDictPosition[node] * weightsList[2]
 
 	topSentences = getTopSentences(documentScore, document)
 	return topSentences

@@ -4,6 +4,7 @@ from utils import getString, getSentences, getTopSentences
 from utils import getRelevantSummaries, map
 from utils import invertedIndex, docSimilarity, npSearch
 from exercise1 import createGraph, docSummaryEx1
+from nltk.tokenize import RegexpTokenizer
 import nltk
 import os
 
@@ -24,6 +25,14 @@ def nodePriorScores(invIndex, sentenceList, document):
 			if word in invIndex:
 				score += invIndex[word][0]
 		priorDict[sentenceID] = score
+	return priorDict
+
+def nodePriorPosition(sentenceList, document):
+	priorDict = {}
+	tokenizer = RegexpTokenizer(r'\w+')
+	for sentenceID in range(0, len(sentenceList)):
+		sent = tokenizer.tokenize(sentenceList[sentenceID])
+		priorDict[sentenceID] =  len(sent) / (sentenceID + 1)
 	return priorDict
 
 def nodePriorDegree(graph, sentenceList):
@@ -113,13 +122,14 @@ def docSummaryEx2(document):
 	invIndex = invertedIndex(document)
 	graphDict = createGraph(document, invIndex)
 
-	priorDict = nodePriorSimilarity(invIndex, document, documentString)
+	#priorDict = nodePriorSimilarity(invIndex, document, documentString)
 	#priorDict = nodePriorDegree(graphDict, document)
 	#priorDict = nodePriorScores(invIndex, document, documentString)
+	priorDict = nodePriorPosition(document, documentString)
 
 	#weightDict = edgeWeightSimilarity(invIndex, graphDict, document)
-	#weightDict = edgeWeightNoun(graphDict, document)
-	weightDict = edgeWeightScores(graphDict, invIndex, document, documentString)
+	weightDict = edgeWeightNoun(graphDict, document)
+	#weightDict = edgeWeightScores(graphDict, invIndex, document, documentString)
 
 	pRankDict = pageRankOpt(graphDict, priorDict, weightDict)
 	topSentences = getTopSentences(pRankDict, document)
