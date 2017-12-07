@@ -4,7 +4,7 @@ import os
 from utils import getString, getSentences, getTopSentences
 from utils import getRelevantSummaries, map
 from utils import invertedIndex
-from exercise2 import createGraph, nodePriorPosition
+from exercise2 import createGraph, nodePriorPosition, nodePriorNoun
 from exercise2 import nodePriorSimilarity, nodePriorScores, nodePriorDegree
 from sklearn.linear_model import Perceptron
 
@@ -14,14 +14,16 @@ def getFeatures(documentString, documentSentences):
 	graph = createGraph(documentSentences, invIndex)
 
 	priorDictSim = nodePriorSimilarity(invIndex, documentSentences, documentString)
-	#priorDictDegree = nodePriorDegree(graph, documentSentences)
+	priorDictDegree = nodePriorDegree(graph, documentSentences)
 	priorDictPosition = nodePriorPosition(documentSentences, documentString)
+	priorDictNoun = nodePriorNoun(documentSentences)
 
 	for i in range(0, len(documentSentences)):
 		sentenceScore = []
 		sentenceScore.append(priorDictSim[i])
-		#sentenceScore.append(priorDictDegree[i])
-		sentencesScore.append(priorDictPosition[i])
+		sentenceScore.append(priorDictDegree[i])
+		sentenceScore.append(priorDictPosition[i])
+		sentenceScore.append(priorDictNoun[i])
 		features.append(sentenceScore)
 	return features
 
@@ -64,11 +66,12 @@ def docSummaryEx3(document, weightsList):
 
 	#Calculate features and update sentences scores
 	priorDictSim = nodePriorSimilarity(invIndex, document, documentString)
-	#priorDictDegree = nodePriorDegree(invIndex, document)
-	#priorDictScores = nodePriorScores(invIndex, document, documentString)
+	priorDictDegree = nodePriorDegree(invIndex, document)
 	priorDictPosition = nodePriorPosition(document, documentString)
+	priorDictNoun = nodePriorNoun(document)
+
 	for node in range(0, len(document)):
-		documentScore[node] = priorDictSim[node] * weightsList[0] + priorDictDegree[node] * weightsList[1] + priorDictPosition[node] * weightsList[2]
+		documentScore[node] = priorDictSim[node] * weightsList[0] + priorDictDegree[node] * weightsList[1] + priorDictPosition[node] * weightsList[2] + priorDictNoun[node] * weightsList[3]
 
 	topSentences = getTopSentences(documentScore, document)
 	return topSentences

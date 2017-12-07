@@ -44,6 +44,13 @@ def nodePriorDegree(graph, sentenceList):
 			priorDict[node] = 0
 	return priorDict
 
+def nodePriorNoun(sentenceList):
+	priorDict = {}
+	for i in range(0, len(sentenceList)):
+		nodeNouns = npSearch(sentenceList[i])
+		priorDict[i] = len(nodeNouns)
+	return priorDict
+
 #Weight Functions
 def edgeWeightSimilarity(invIndex, graph, sentenceList):
 	weightDict = {}
@@ -126,10 +133,11 @@ def docSummaryEx2(document):
 	#priorDict = nodePriorDegree(graphDict, document)
 	#priorDict = nodePriorScores(invIndex, document, documentString)
 	priorDict = nodePriorPosition(document, documentString)
+	#priorDict = nodePriorNoun(document)
 
 	#weightDict = edgeWeightSimilarity(invIndex, graphDict, document)
-	weightDict = edgeWeightNoun(graphDict, document)
-	#weightDict = edgeWeightScores(graphDict, invIndex, document, documentString)
+	#weightDict = edgeWeightNoun(graphDict, document)
+	weightDict = edgeWeightScores(graphDict, invIndex, document, documentString)
 
 	pRankDict = pageRankOpt(graphDict, priorDict, weightDict)
 	topSentences = getTopSentences(pRankDict, document)
