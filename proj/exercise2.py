@@ -26,6 +26,15 @@ def nodePriorScores(invIndex, sentenceList, document):
 		priorDict[sentenceID] = score
 	return priorDict
 
+def nodePriorDegree(graph, sentenceList):
+	priorDict = {}
+	for node in range(0, len(sentenceList)):
+		if node in graph:
+			priorDict[node] = len(graph[node])
+		else:
+			priorDict[node] = 0
+	return priorDict
+
 #Weight Functions
 def edgeWeightSimilarity(invIndex, graph, sentenceList):
 	weightDict = {}
@@ -105,6 +114,7 @@ def docSummaryEx2(document):
 	graphDict = createGraph(document, invIndex)
 
 	priorDict = nodePriorSimilarity(invIndex, document, documentString)
+	#priorDict = nodePriorDegree(graphDict, document)
 	#priorDict = nodePriorScores(invIndex, document, documentString)
 
 	#weightDict = edgeWeightSimilarity(invIndex, graphDict, document)
